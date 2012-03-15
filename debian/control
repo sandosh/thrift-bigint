@@ -1,0 +1,13 @@
+Source: nodejs-thrift
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: nodejs-thrift
+Depends: nodejs (>= 0.2.1), ${misc:Depends}
+Architecture: all
+Description: node-thrift
+ http://github.com/wadey/node-thrift
